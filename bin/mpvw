@@ -1,0 +1,85 @@
+DIRECTORY=$HOME/Desktop/
+LOGFILE="wallpaper.log"
+
+
+
+input_file=$DIRECTORY$LOGFILE
+number=0
+list=()
+
+#read command on list
+while IFS= read -r line 
+do
+	list[$number]=$line
+	((number += 1))
+done < "${input_file}"
+
+size=$number
+
+
+while [ -n "$1" ]
+do
+	case "$1" in
+		"-p" ) echo 'cycle pause' | socat - /tmp/mpv-socket ;;
+		"--pause" ) echo 'cycle pause' | socat - /tmp/mpv-socket ;;
+
+		"-m" ) echo 'cycle mute' | socat - /tmp/mpv-socket ;;
+		"--mute" ) echo 'cycle mute' | socat - /tmp/mpv-socket ;;
+
+		"--next" ) echo 'playlist-next' | socat - /tmp/mpv-socket ;;
+		"--prev" ) echo 'playlist-prev' | socat - /tmp/mpv-socket ;;
+
+		"--shuffle" ) echo 'playlist-shuffle' | socat - /tmp/mpv-socket ;;
+		"--unshuffle" ) echo 'playlist-unshuffle' | socat - /tmp/mpv-socket ;;
+		"-s" ) echo 'playlist-shuffle' | socat - /tmp/mpv-socket ;;
+		"-u" ) echo 'playlist-unshuffle' | socat - /tmp/mpv-socket ;;
+
+		"--playlist" ) 
+			shift
+
+			if [ -z "$1" ]
+			then
+				echo "${list[*]}"
+				break
+			fi
+
+			for ((number_file=0; "${number_file}" <= "${size}" ; number_file++ ));
+			do
+				#echo "${number_file} = ${list[$number_file]}"
+				if [ "$1" == "${list[$number_file]}" ]
+				then
+					echo "loadlist ${DIRECTORY}${1}" | socat - /tmp/mpv-socket
+					break
+				elif [ "$number_file" -eq "$size" ]
+				then
+					printf "ERROR: nothing search\n"
+					exit 0;
+				fi
+			done ;;
+		"-h" )
+			echo "-p	--pause"	
+			echo "-m	--mute"	
+			echo "--next"	
+			echo "--prev"
+			echo "-s	--shuffle"
+			echo "-u	--unshuffle"
+			echo "--playlist		show all playlists"
+			echo "--playlist [..]		Load the given playlist file or URL"
+			;;
+		"--help" )
+			echo "-p	--pause"	
+			echo "-m	--mute"	
+			echo "--next"	
+			echo "--prev"
+			echo "-s	--shuffle"
+			echo "-u	--unshuffle"
+			echo "--playlist		show all playlists"
+			echo "--playlist [..]		Load the given playlist file or URL"
+			;;
+
+	esac
+	shift
+done
+
+exit 0
+

@@ -1,0 +1,6 @@
+#!/bin/bash
+
+sudo modprobe v4l2loopback exclusive_caps=1 video_nr=3 card_label=WfRecorder
+wf-recorder --muxer=v4l2 --codec=rawvideo --file=/dev/video3 -x yuv420p &
+ffplay /dev/video3
+killall wf-recorder

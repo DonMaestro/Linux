@@ -1,0 +1,10 @@
+configuration {
+// terminal: "kitty";
+// width: 30;
+ modi: "combi,drun,run,ssh";
+ combi-modi: "drun,run";
+// run-shell-command: "kitty -e "{cmd}"";
+ font: "SF Pro Display,16";
+}
+@theme "Arc"
+

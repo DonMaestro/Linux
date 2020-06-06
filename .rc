@@ -1,0 +1,34 @@
+export GPG_TTY=$(tty)
+#export GTK_THEME=
+
+if [ "$TERM" = "linux" ]; then
+    #echo -en "\e]P0002831" #black
+    echo -en "\e]P0000000" #black
+    echo -en "\e]P1DC322F" #darkred
+    echo -en "\e]P296ad00" #darkgreen
+    echo -en "\e]P3CF9A6B" #brown
+    echo -en "\e]P42176c7" #darkblue
+    echo -en "\e]P5D33682" #darkmagenta
+    echo -en "\e]P6259286" #darkcyan
+    #echo -en "\e]P7eae3cb" #lightgrey
+
+    echo -en "\e]P8006488" #darkgrey
+    echo -en "\e]P9f5163b" #red
+    echo -en "\e]PA95d485" #green
+    echo -en "\e]PBcda481" #yellow
+    echo -en "\e]PC178ec8" #blue
+    echo -en "\e]PD6c71c4" #magenta
+    echo -en "\e]PE00b39e" #cyan
+    #echo -en "\e]PFfcf4dc" #white
+fi
+
+# -------
+# Aliases
+# -------
+alias rr=ranger
+alias sj="sudo journalctl"
+alias ls='ls --color=auto'
+alias smo="sudo mount"
+alias sum="sudo umount"
+alias t="todo.sh"
+

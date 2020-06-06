@@ -1,0 +1,12 @@
+#!/bin/bash
+
+FILE=file://
+
+#chromium --app=$FILE$(pwd)/$1
+if [ $1 == "-d" ]
+then
+	chromium --app=$FILE$(pwd)/$2 &
+else
+	chromium --app=$FILE$1 &
+fi
+

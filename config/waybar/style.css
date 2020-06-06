@@ -1,0 +1,67 @@
+* {
+	/*font-family: "SF Pro Display", "Font Awesome 6 Free,Font Awesome 6 Free Solid";
+	 */
+	/*font-size: 16px;*/
+}
+
+window#waybar {
+	font-size: 16px;
+	font-family: "Helvetica Now Text", "Font Awesome 6 Free,Font Awesome 6 Free Solid";
+	/*background-color: rgba(128, 128, 128, 0.5);*/
+}
+
+#workspaces button {
+	/*font-family: "Materia Icons", "Material Design Icons";*/
+	/*border-bottom: 3px solid transparent;*/
+	border-radius: 0;
+	padding: 0px 5px 3px 5px;
+	margin: 0px;
+}
+
+#workspaces button.focused {
+	border-bottom: 3px solid;
+	border-color: #5e81ac;
+	padding: 0px 5px 0px 5px;
+}
+
+#workspaces button.urgent {
+	background: #f53c3c;
+}
+
+
+#mode {
+	background: #f53c3c;
+	padding: 0 6px;
+}
+
+#custom-text, #custom-dark-mode {
+	font-weight: bold;
+	margin: 0px 5px 0px 10px;
+}
+
+#disk, #mpd, #scratchpad,
+#language,
+#memory, #pulseaudio, #temperature, #cpu,
+#network, #backlight, #battery, #custom-pacman
+{
+	margin: 0px 5px;
+}
+
+#tray {
+	margin: 0px 2px;
+}
+
+#clock {
+	/*background-color: #5e81ac;*/
+	margin: 0px 10px 0px 5px;
+}
+
+#wlr-taskbar {
+	margin: 0px 5px;
+}
+
+#network.disconnected {
+	background: #f53c3c;
+	margin: 0 6px;
+}
+

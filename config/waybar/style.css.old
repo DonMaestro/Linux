@@ -1,0 +1,120 @@
+* {
+	border: none;
+	font-family: "SF Pro Text", "Material Icons", "Material Design Icons";
+	font-weight: 400;
+	font-size: 13px;
+	min-height: 0;
+	box-shadow: inherit;
+	text-shadow: inherit;
+}
+
+window#waybar {
+	background: rgba(0, 0, 0, 0);
+	color: #fdf6e3;
+}
+
+#workspaces {
+        background: #1a1a1a;
+	border-radius: 3px;
+	padding: 0 2px;
+	margin: 0px;
+}
+
+#workspaces button {
+        background: #1a1a1a;
+	color: #fdf6e3;
+	border-radius: 0;
+	padding: 0 5px;
+	margin: 0px;
+}
+
+#workspaces button.visible {
+        background: #1a1a1a;
+	color: #fdf6e3;
+	padding: 0 5px;
+	margin: 0px;
+}
+
+#workspaces button.focused {
+        background: #1a1a1a;
+	color: #00a8d3; 
+	padding: 0 5px;
+	margin: 0px;
+}
+
+#workspaces button.urgent {
+	background: #f53c3c;
+	color: #1b1d1e;
+	padding: 0 5px;
+	margin: 0px;
+}
+
+#workspaces button.persistent {
+	background: #f53c3c;
+	color: #1b1d1e;
+	padding: 0 5px;
+	margin: 0px;
+}
+
+#mode {
+	background: #f53c3c;
+	border-radius: 3px;
+	padding: 0 5px;
+}
+
+#tray {
+	background: #1a1a1a;
+	border-radius: 3px;
+	padding: 0 5px;
+	margin: 0px 3px 0px 0px;
+}
+
+#disk, #memory {
+	background: #1a1a1a;
+	border-radius: 3px 0px 0px 3px;
+	padding: 0 5px;
+	margin: 0px 0px 0px 3px;
+}
+
+#mpd, #pulseaudio {
+	background: #1a1a1a;
+	border-radius: 0px 3px 3px 0px;
+	padding: 0 5px;
+	margin: 0px;
+}
+
+#window {
+	background: rgba(0, 43, 54, 0.8);
+	color: #fdf6e3;
+	border-radius: 3px;
+	padding: 0 5px;
+	margin: 0px 3px 0px 3px;
+}
+
+#language {
+	/*background: rgba(245, 60, 60, 0.7);
+	background: rgba(0, 0, 0, 0.4);
+	background: rgba(0, 43, 54, 0.8);*/
+	background: #1a1a1a;
+	border-radius: 3px;
+	padding: 0 5px;
+}
+
+#clock, #temperature, #cpu, #network, #backlight, #battery, #wlr-taskbar {
+	background: #1a1a1a;
+	padding: 0 5px;
+	margin: 0 0px;
+}
+
+#custom-pacman, #custom-wallpaper, #custom-space, #custom-text {
+	background: #1a1a1a;
+	padding: 0 5px;
+	margin: 0 0px;
+}
+
+#network.disconnected {
+	background: #f53c3c;
+	padding: 0 5px;
+	margin: 0 0px;
+}
+

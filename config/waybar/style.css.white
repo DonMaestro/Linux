@@ -1,0 +1,68 @@
+* {
+	border: none;
+	font-family: "SF Pro Display";
+	font-size: 14px;
+	min-height: 0;
+	box-shadow: inherit;
+	text-shadow: inherit;
+}
+
+window#waybar {
+	background: white;
+	color: black;
+}
+
+#workspaces button {
+	border-bottom: 3px solid transparent;
+	border-radius: 0;
+	padding: 0 5px;
+	margin: 0px;
+}
+
+#workspaces button.focused {
+	border-color: #4c7899;
+	padding: 0 5px;
+	margin: 0px;
+}
+
+#workspaces button.urgent {
+	background: #f53c3c;
+	padding: 0 5px;
+	margin: 0px;
+}
+
+#workspaces button.persistent {
+	background: #f53c3c;
+	padding: 0 5px;
+	margin: 0px;
+}
+
+#mode {
+	background: #f53c3c;
+	padding: 0 5px;
+}
+
+#disk, #memory, #mpd, #pulseaudio, #language, #clock, #temperature, #cpu,
+#network, #backlight, #battery, #wlr-taskbar, #window {
+	padding: 0 0px;
+	margin: 0px 4px;
+}
+	
+#tray {
+	padding: 0 0px;
+	margin: 0px 4px;
+	color: black;
+	background-color: black;
+}
+
+#custom-pacman, #custom-text {
+	padding: 0 0px;
+	margin: 0px 4px;
+}
+
+#network.disconnected {
+	background: #f53c3c;
+	padding: 0 5px;
+	margin: 0 0px;
+}
+

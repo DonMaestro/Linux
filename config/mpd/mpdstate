@@ -1,0 +1,312 @@
+sw_volume: 100
+audio_device_state:1:PipeWire Sound Server
+state: stop
+current: 191
+random: 1
+repeat: 1
+single: 0
+consume: 0
+crossfade: 0
+mixrampdb: 0.000000
+mixrampdelay: -1.000000
+playlist_begin
+0:arhive/Hi-Res stereo/10cc - Good Morning Judge.flac
+1:arhive/Hi-Res stereo/10cc - The Things We Do For Love.flac
+2:arhive/Hi-Res stereo/Asia - Heat Of The Moment.flac
+3:arhive/Hi-Res stereo/Cyndi Lauper - Girls Just Want To Have Fun.flac
+4:arhive/Hi-Res stereo/Cyndi Lauper - Time After Time.flac
+5:arhive/Hi-Res stereo/Genesis - I Can't Dance.flac
+6:arhive/Hi-Res stereo/John Lennon - Imagine.flac
+7:arhive/Hi-Res stereo/John Lennon - Oh My Love.flac
+8:arhive/Hi-Res stereo/John Lennon - Woman.flac
+9:arhive/Hi-Res stereo/Muse - Panic Station.flac
+10:arhive/Hi-Res stereo/Muse - Supremacy.flac
+11:arhive/Hi-Res stereo/Nirvana - Lithium.flac
+12:arhive/Hi-Res stereo/Nirvana - Rape Me.flac
+13:arhive/Hi-Res stereo/Nirvana - Smells Like Teen Spirit.flac
+14:arhive/Hi-Res stereo/Ritchie Blackmore's Rainbow - Catch The Rainbow.flac
+15:arhive/Hi-Res stereo/Ritchie Blackmore's Rainbow - Man On The Silver Mountain.flac
+16:arhive/Hi-Res stereo/Santana - No One to Depend On.flac
+17:arhive/Hi-Res stereo/Santana - She's Not There.flac
+18:arhive/Hi-Res stereo/Scorpions - When The Smoke Is Going Down.flac
+19:arhive/Hi-Res stereo/T.REX - Get It On.flac
+20:arhive/Hi-Res stereo/Ted Nugent - Stormtroopin'.flac
+21:arhive/Hi-Res stereo/THE PIXIES - Where Is My Mind.flac
+22:arhive/Hi-Res stereo/The Zombies - She's Not There ( hit single version).flac
+23:arhive/Hi-Res stereo/The Zombies - She's Not There.flac
+24:arhive/Hi-Res stereo/Oasis - Hello (Remastered).flac
+25:arhive/Hi-Res stereo/Oasis - Wonderwall (Remastered).flac
+26:arhive/Hi-Res stereo/James Brown & The Famous Flames - I Got You (I Feel Good).flac
+27:arhive/Hi-Res stereo/James Brown - Give It Up Or Turnit A Loose (Single Version).flac
+28:arhive/Hi-Res stereo/Toto - Rosanna.flac
+29:arhive/Hi-Res stereo/Toto - Africa.flac
+30:arhive/Hi-Res stereo/Toto - Hold The Line.flac
+31:arhive/Hi-Res stereo/Foreigner - Waiting For A Girl Like You.flac
+32:arhive/Hi-Res stereo/Kasabian - Bumblebeee.flac
+33:arhive/Hi-Res stereo/Kasabian - Eez-eh.flac
+34:arhive/Hi-Res stereo/Yes - Owner Of A Lonely Heart.flac
+35:arhive/Hi-Res stereo/U2 - One.flac
+36:arhive/Hi-Res stereo/Foreigner - I Want To Know What Love Is.flac
+37:arhive/Hi-Res stereo/Slipknot - Psychosocial.flac
+38:arhive/Hi-Res stereo/Green Day - Boulevard Of Broken Dreams.flac
+39:arhive/Hi-Res stereo/Villebrad - Sketchy Feelings.flac
+40:arhive/Hi-Res stereo/Villebrad - Ampersand.flac
+41:arhive/Hi-Res stereo/Rod Stewart - Sailing.flac
+42:arhive/Hi-Res stereo/R.E.M. - Everybody Hurts.flac
+43:arhive/Hi-Res stereo/3 Doors Down - When I'm Gone.flac
+44:arhive/Hi-Res stereo/3 Doors Down - Here Without You.flac
+45:arhive/Hi-Res stereo/Mumford & Sons - I Will Wait.flac
+46:arhive/Hi-Res stereo/Heart - Alone.flac
+47:arhive/Hi-Res stereo/Freddie Mercury & Montserrat Caballe - Barcelona.flac
+48:arhive/Hi-Res stereo/The Beatles - No Reply.flac
+49:arhive/Hi-Res stereo/The Rolling Stones - Sympathy for the Devil.flac
+50:arhive/Hi-Res stereo/David Rhodes - Reality Slips.flac
+51:arhive/Hi-Res stereo/Muse - Supermassive Black Hole.flac
+52:arhive/Hi-Res stereo/Jimmy Eat World - Bleed American.flac
+53:arhive/Hi-Res stereo/Ozzy Osbourne - Crazy Train (Remastered Original Recording).flac
+54:arhive/Hi-Res stereo/Blur - Song 2.flac
+55:arhive/Hi-Res stereo/Twenty One Pilots - Heavydirtysoul.flac
+56:arhive/Hi-Res stereo/Twenty One Pilots - Stressed Out.flac
+57:arhive/Hi-Res stereo/Twenty One Pilots - Ride.flac
+58:arhive/Hi-Res stereo/Twenty One Pilots - Fairly Local.flac
+59:arhive/Hi-Res stereo/Twenty One Pilots - The Judge.flac
+60:arhive/Hi-Res stereo/Bob Dylan - The Times They Are A-Changin'.flac
+61:arhive/Hi-Res stereo/Supertramp - The Logical Song.flac
+62:arhive/Hi-Res stereo/C.C. Colletti - In My Time Of Dying.flac
+63:arhive/Hi-Res stereo/The Black Keys - Howlin' For You.flac
+64:arhive/Hi-Res stereo/Dire Straits - So Far Away.flac
+65:arhive/Hi-Res stereo/Dire Straits - Your Latest Trick.flac
+66:arhive/Hi-Res stereo/Dire Straits - Brothers In Arms.flac
+67:arhive/Hi-Res stereo/Rod Stewart - Some Guys Have All the Luck.flac
+68:arhive/Hi-Res stereo/2Cellos - They Don't Care About Us.flac
+69:arhive/Hi-Res stereo/Nico - These Days.flac
+70:arhive/Hi-Res stereo/Chicago - Hard To Say I'm SorryGet Away.flac
+71:arhive/Hi-Res stereo/Chicago - You're The Inspiration.flac
+72:arhive/Hi-Res stereo/The Clash - Should I Stay or Should I Go.flac
+73:arhive/Hi-Res stereo/Megadeth - Symphony of Destruction.flac
+74:arhive/Hi-Res stereo/Mike Oldfield - Moonlight Shadow (12 Single).flac
+75:arhive/Hi-Res stereo/Breaking Benjamin - Dark.flac
+76:arhive/Hi-Res stereo/Breaking Benjamin - Failure.flac
+77:arhive/Hi-Res stereo/Stick Men - Nude Ascending Staircase.flac
+78:arhive/Hi-Res stereo/Kiss - Beth (2012 Remix).flac
+79:arhive/Hi-Res stereo/The Black Keys - Gold On The Ceiling.flac
+80:arhive/Hi-Res stereo/Neil Young With Crazy Horse - Everybody Knows This Is Nowhere.flac
+81:arhive/Hi-Res stereo/Alan Parsons Project - Sirius.flac
+82:arhive/Hi-Res stereo/Alan Parsons Project - Mammagamma.flac
+83:arhive/Hi-Res stereo/Iron Maiden - Fear Of The Dark.flac
+84:arhive/Hi-Res stereo/Foreigner - Long, Long Way From Home.flac
+85:arhive/Hi-Res stereo/Billie Joe Armstrong, Norah Jones - Roving Gambler.flac
+86:arhive/Hi-Res stereo/Billie Joe Armstrong, Norah Jones - Long Time Gone.flac
+87:arhive/Hi-Res stereo/Yes - Roundabout.flac
+88:arhive/Hi-Res stereo/Garbage - Only Happy When It Rains.flac
+89:arhive/Hi-Res stereo/Garbage - Milk.flac
+90:arhive/Hi-Res stereo/Aerosmith - Get A Grip.flac
+91:arhive/Hi-Res stereo/Aerosmith - Cryin'.flac
+92:arhive/Hi-Res stereo/The Rolling Stones - Angie.flac
+93:arhive/Hi-Res stereo/Sonic Youth - Dirty Boots.flac
+94:arhive/Hi-Res stereo/Creedence Clearwater Revival - Bad Moon Rising.flac
+95:arhive/Hi-Res stereo/Beck - E-Pro.flac
+96:arhive/Hi-Res stereo/Neil Young - Harvest.flac
+97:arhive/Hi-Res stereo/Heart - What About Love.flac
+98:arhive/Hi-Res stereo/Todd Rundgren - Can We Still Be Friends.flac
+99:arhive/Hi-Res stereo/Rammstein - Wollt ihr das Bett in Flammen sehen.flac
+100:arhive/Hi-Res stereo/Rammstein - Asche zu Asche.flac
+101:arhive/Hi-Res stereo/Rammstein - Du riechst so gut.flac
+102:arhive/Hi-Res stereo/Florence and the Machine - Ship To Wreck.flac
+103:arhive/Hi-Res stereo/Florence and the Machine - Queen Of Peace.flac
+104:arhive/Hi-Res stereo/John Lennon - Mother.flac
+105:arhive/Hi-Res stereo/Shelby Lynne - I Only Want To Be With You.flac
+106:arhive/Hi-Res stereo/INXS - Need You Tonight.flac
+107:arhive/Hi-Res stereo/INXS - Never Tear Us Apart.flac
+108:arhive/Hi-Res stereo/The Doors - Riders On The Storm.flac
+109:arhive/Hi-Res stereo/Led Zeppelin - Immigrant Song.flac
+110:arhive/Hi-Res stereo/Led Zeppelin - Stairway To Heaven.flac
+111:arhive/Hi-Res stereo/Les Friction - Louder Than Words.flac
+112:arhive/Hi-Res stereo/Les Friction - World On Fire.flac
+113:arhive/Hi-Res stereo/Ricinn - Uma.flac
+114:arhive/Hi-Res stereo/Heart - Barracuda.flac
+115:arhive/Hi-Res stereo/The Clash - London Calling.flac
+116:arhive/Hi-Res stereo/Tame Impala - Elephant.flac
+117:arhive/Hi-Res stereo/Deep Purple - Smoke On The Water.flac
+118:arhive/Hi-Res stereo/Mike Oldfield - Nuclear.flac
+119:arhive/Hi-Res stereo/Metallica - Master Of Puppets.flac
+120:arhive/Hi-Res stereo/Metallica - Enter Sandman.flac
+121:arhive/Hi-Res stereo/Metallica - Sad But True.flac
+122:arhive/Hi-Res stereo/Metallica - The Unforgiven.flac
+123:arhive/Hi-Res stereo/Metallica - Nothing Else Matters.flac
+124:arhive/Hi-Res stereo/Van Morrison - Moondance.flac
+125:arhive/Hi-Res stereo/Beck - Morning.flac
+126:arhive/Hi-Res stereo/Natalie Merchant - Ladybird.flac
+127:arhive/Hi-Res stereo/Naxatras - I am the Beyonder.flac
+128:arhive/Hi-Res stereo/Charlie Puth - See You Again (feat. Charlie Puth) [From Furious 7].flac
+129:arhive/Hi-Res stereo/Nickelback - Edge Of A Revolution.flac
+130:arhive/Hi-Res stereo/Nickelback - She Keeps Me Up.flac
+131:arhive/Hi-Res stereo/Ozzy Osbourne - Mama, I'm Coming Home.flac
+132:arhive/Hi-Res stereo/Bee Gees - Too Much Heaven.flac
+133:arhive/Hi-Res stereo/Bee Gees - Tragedy.flac
+134:arhive/Hi-Res stereo/Bee Gees - Stayin' Alive.flac
+135:arhive/Hi-Res stereo/Faces - Glad And Sorry.flac
+136:arhive/Hi-Res stereo/R.E.M. - Losing My Religion.flac
+137:arhive/Hi-Res stereo/Ozzy Osbourne - I Just Want You.flac
+138:arhive/Hi-Res stereo/Radiohead - Creep.flac
+139:arhive/Hi-Res stereo/Natalie Merchant - Carnival.flac
+140:arhive/Hi-Res stereo/Black Sabbath - Iron Man.flac
+141:arhive/Hi-Res stereo/Bob Dylan - Knockin' on Heaven's Door.flac
+142:arhive/Hi-Res stereo/Paul Stanley - Tonight You Belong To Me.flac
+143:arhive/Hi-Res stereo/Bruce Springsteen - Streets Of Philadelphia.flac
+144:arhive/Hi-Res stereo/Led Zeppelin - Kashmir.flac
+145:arhive/Hi-Res stereo/Iron Maiden - The Trooper.flac
+146:arhive/Hi-Res stereo/Big Star - September Gurls.flac
+147:arhive/Hi-Res stereo/Robert Plant & Alison Krauss - Rich Woman.flac
+148:arhive/Hi-Res stereo/The Police - Message In A Bottle.flac
+149:arhive/Hi-Res stereo/Metallica - Ride The Lightning.flac
+150:arhive/Hi-Res stereo/The Clash - Bankrobber.flac
+151:arhive/Hi-Res stereo/Roxy Music - Avalon.flac
+152:arhive/Hi-Res stereo/Roxy Music - More Than This.flac
+153:arhive/Hi-Res stereo/Fleetwood Mac - Dreams.flac
+154:arhive/Hi-Res stereo/Megadeth - Holy Wars...The Punishment Due.flac
+155:arhive/Hi-Res stereo/Xandria - Nightfall.flac
+156:arhive/Hi-Res stereo/Bring Me The Horizon - Can You Feel My Heart.flac
+157:arhive/Hi-Res stereo/Bring Me The Horizon - The House Of Wolves.flac
+158:arhive/Hi-Res stereo/Bring Me The Horizon - Empire (Let Them Sing).flac
+159:arhive/Hi-Res stereo/Bring Me The Horizon - Sleepwalking.flac
+160:arhive/Hi-Res stereo/Bring Me The Horizon - Go To Hell, For Heaven's Sake.flac
+161:arhive/Hi-Res stereo/Bring Me The Horizon - And The Snakes Start To Sing.flac
+162:arhive/Hi-Res stereo/Dropkick Murphys - Rose Tattoo.flac
+163:arhive/Hi-Res stereo/Peter Gabriel - Don't Give Up.flac
+164:arhive/Hi-Res stereo/Fun. - Some Nights.flac
+165:arhive/Hi-Res stereo/Fun. - We Are Young (feat. Janelle Monae).flac
+166:arhive/Hi-Res stereo/Fun. - One Foot.flac
+167:arhive/Hi-Res stereo/Foo Fighters - Something From Nothing.flac
+168:arhive/Hi-Res stereo/Steppenwolf - Born To Be Wild.flac
+169:arhive/Hi-Res stereo/The Doors - Strange Days.flac
+170:arhive/Hi-Res stereo/Santana - Smooth.flac
+171:arhive/Hi-Res stereo/Santana - Maria Maria.flac
+172:arhive/Hi-Res stereo/The Police - Every Breath You Take.flac
+173:arhive/Hi-Res stereo/Suzanne Vega - Crack in the Wall.flac
+174:arhive/Hi-Res stereo/Suzanne Vega - I Never Wear White.flac
+175:arhive/Hi-Res stereo/Leonard Cohen - In My Secret Life.flac
+176:arhive/Hi-Res stereo/The Animals - House Of The Rising Sun.flac
+177:arhive/Hi-Res stereo/The B-52's - Rock Lobster.flac
+178:arhive/Hi-Res stereo/Lou Reed - The Gun.flac
+179:arhive/Hi-Res stereo/The Doors - Break On Through (To The Other Side).flac
+180:arhive/Hi-Res stereo/The Doors - Light My Fire.flac
+181:arhive/Hi-Res stereo/Van Morrison - Brown Eyed Girl.flac
+182:arhive/Hi-Res stereo/Jesca Hoop - Born To.flac
+183:arhive/Hi-Res stereo/Dio - We Rock.flac
+184:arhive/Hi-Res stereo/Dio - The Last in Line.flac
+185:arhive/Hi-Res stereo/Marilyn Manson - Killing Strangers.flac
+186:arhive/Hi-Res stereo/Marilyn Manson - Deep Six.flac
+187:arhive/Hi-Res stereo/Marilyn Manson - Third Day Of A Seven Day Binge.flac
+188:arhive/Hi-Res stereo/Marilyn Manson - The Mephistopheles Of Los Angeles.flac
+189:arhive/Hi-Res stereo/Marilyn Manson - Cupid Carries A Gun.flac
+190:arhive/Hi-Res stereo/Bruce Springsteen - Hungry Heart.flac
+191:arhive/Hi-Res stereo/Steppenwolf - Magic Carpet Ride.flac
+192:arhive/Hi-Res stereo/INXS - Original Sin.flac
+193:arhive/Hi-Res stereo/The Velvet Underground - Sunday Morning.flac
+194:arhive/Hi-Res stereo/The Velvet Underground - I'm Waiting For The Man.flac
+195:arhive/Hi-Res stereo/The Velvet Underground - Heroin.flac
+196:arhive/Hi-Res stereo/Editors - Sugar.flac
+197:arhive/Hi-Res stereo/Graham Nash - This Path Tonight.flac
+198:arhive/Hi-Res stereo/Electric Light Orchestra - Twilight.flac
+199:arhive/Hi-Res stereo/Electric Light Orchestra - Ticket to the Moon.flac
+200:arhive/Hi-Res stereo/Tom Petty & The Heartbreakers - American Girl.flac
+201:arhive/Hi-Res stereo/Mark Knopfler - Laughs And Jokes And Drinks And Smokes.flac
+202:arhive/Hi-Res stereo/Lou Reed - Perfect Day.flac
+203:arhive/Hi-Res stereo/Garbage - I Think I'm Paranoid.flac
+204:arhive/Hi-Res stereo/INXS - Beautiful Girl.flac
+205:arhive/Hi-Res stereo/The Who - Baba O'Riley.flac
+206:arhive/Hi-Res stereo/The Who - Behind Blue Eyes.flac
+207:arhive/Hi-Res stereo/Creedence Clearwater Revival - Fortunate Son.flac
+208:arhive/Hi-Res stereo/Chicago - If You Leave Me Now.flac
+209:arhive/Hi-Res stereo/The Beatles - Yellow Submarine.flac
+210:arhive/Hi-Res stereo/Santana - I Love You Much Too Much.flac
+211:arhive/Hi-Res stereo/depration/The Beatles - Girl (2009 Digital Remaster).flac
+212:arhive/Hi-Res stereo/depration/THE PIXIES - Hey.flac
+213:arhive/Hi-Res stereo/depration/Kate Bush - Snowflake.flac
+214:arhive/Hi-Res stereo/depration/Billy Joel - Honesty (Album Version).flac
+215:arhive/Hi-Res stereo/depration/The Rolling Stones - Pain In My Heart.flac
+216:arhive/Hi-Res stereo/depration/Aerosmith - Dream On (2012 Remaster).flac
+217:arhive/Hi-Res stereo/depration/Muse - Starlight.flac
+218:arhive/Hi-Res stereo/depration/Jimmy Eat World - The Middle.flac
+219:arhive/Hi-Res stereo/depration/Dire Straits - Why Worry.flac
+220:arhive/Hi-Res stereo/depration/2Cellos - Shape of My Heart.flac
+221:arhive/Hi-Res stereo/depration/Noel Gallagher's High Flying Birds - In The Heat Of The Moment.flac
+222:arhive/Hi-Res stereo/depration/Noel Gallagher's High Flying Birds - The Right Stuff.flac
+223:arhive/Hi-Res stereo/depration/The Smiths - There Is A Light That Never Goes Out.flac
+224:arhive/Hi-Res stereo/depration/Tame Impala - Let It Happen.flac
+225:arhive/Hi-Res stereo/depration/Oasis - Live Forever (Remastered).flac
+226:arhive/Hi-Res stereo/depration/Beach House - Space Song.mp3
+227:arhive/Hi-Res stereo/depration/Ozzy Osbourne - Dreamer.flac
+228:arhive/Hi-Res stereo/depration/Kiss - I Was Made For Lovin' You.flac
+229:arhive/Hi-Res stereo/depration/The Black Keys - Lonely Boy.flac
+230:arhive/Hi-Res stereo/depration/The Black Keys - Dead And Gone.flac
+231:arhive/Hi-Res stereo/depration/Beck - Everybody's Gotta Learn Sometimes.flac
+232:arhive/Hi-Res stereo/depration/The Postal Service - Such Great Heights.flac
+233:arhive/Hi-Res stereo/depration/Simon & Garfunkel - The Sounds of Silence.flac
+234:arhive/Hi-Res stereo/depration/The Beatles - Help!.flac
+235:arhive/Hi-Res stereo/depration/The Beatles - Yesterday.flac
+236:arhive/Hi-Res stereo/depration/Stone Sour - Red City.flac
+237:arhive/Hi-Res stereo/depration/Florence and the Machine - What Kind Of Man.flac
+238:arhive/Hi-Res stereo/depration/King Crimson - I Talk to the Wind.flac
+239:arhive/Hi-Res stereo/depration/Daughtry - It's Not Over.flac
+240:arhive/Hi-Res stereo/depration/John Lennon - Love.flac
+241:arhive/Hi-Res stereo/depration/Les Friction - Torture.flac
+242:arhive/Hi-Res stereo/depration/The Beatles - Let It Be.flac
+243:arhive/Hi-Res stereo/depration/Tame Impala - Feels Like We Only Go Backwards.flac
+244:arhive/Hi-Res stereo/depration/Gotye - Somebody That I Used To Know.flac
+245:arhive/Hi-Res stereo/depration/Natalie Merchant - Maggie Said.flac
+246:arhive/Hi-Res stereo/depration/Aerosmith - I Don't Want To Miss A Thing.flac
+247:arhive/Hi-Res stereo/depration/Charlie Puth - One Call Away.flac
+248:arhive/Hi-Res stereo/depration/Radiohead - Karma Police.flac
+249:arhive/Hi-Res stereo/depration/Joan Osborne - One Of Us.flac
+250:arhive/Hi-Res stereo/depration/TV On The Radio - Happy Idiot.flac
+251:arhive/Hi-Res stereo/depration/The Smashing Pumpkins - Disarm.flac
+252:arhive/Hi-Res stereo/depration/Cage The Elephant - Mess Around.flac
+253:arhive/Hi-Res stereo/depration/Radiohead - Street Spirit [Fade Out].flac
+254:arhive/Hi-Res stereo/depration/Van Morrison - Someone Like You.flac
+255:arhive/Hi-Res stereo/depration/Editors - No Sound but the Wind.flac
+256:arhive/Hi-Res stereo/depration/Rod Stewart - Young Turks.flac
+257:arhive/Hi-Res stereo/depration/Leonard Cohen - Hallelujah.flac
+258:arhive/Hi-Res stereo/depration/Black Sabbath - Changes.flac
+259:arhive/Arcane - Arcane League of Legends (Soundtrack from the Animated Series) (2021 - Soundtrack) [Flac 16-44]/01. Bea Miller - Playground (from the series Arcane League of Legends).flac
+260:arhive/Arcane - Arcane League of Legends (Soundtrack from the Animated Series) (2021 - Soundtrack) [Flac 16-44]/02. Curtis Harding - Our Love (from the series Arcane League of Legends).flac
+261:arhive/Arcane - Arcane League of Legends (Soundtrack from the Animated Series) (2021 - Soundtrack) [Flac 16-44]/03. Ramsey - Goodbye (from the series Arcane League of Legends).flac
+262:arhive/Arcane - Arcane League of Legends (Soundtrack from the Animated Series) (2021 - Soundtrack) [Flac 16-44]/04. BONES UK - Dirty Little Animals (from the series Arcane League of Legends).flac
+263:arhive/Arcane - Arcane League of Legends (Soundtrack from the Animated Series) (2021 - Soundtrack) [Flac 16-44]/05. Imagine Dragons - Enemy feat. J.I.D. (from the series Arcane League of Legends).flac
+264:arhive/Arcane - Arcane League of Legends (Soundtrack from the Animated Series) (2021 - Soundtrack) [Flac 16-44]/06. Woodkid - Guns for Hire (from the series Arcane League of Legends).flac
+265:arhive/Arcane - Arcane League of Legends (Soundtrack from the Animated Series) (2021 - Soundtrack) [Flac 16-44]/07. Pusha T - Misfit Toys (from the series Arcane League of Legends).flac
+266:arhive/Arcane - Arcane League of Legends (Soundtrack from the Animated Series) (2021 - Soundtrack) [Flac 16-44]/08. Denzel Curry - Dynasties and Dystopia (from the series Arcane League of Legends).flac
+267:arhive/Arcane - Arcane League of Legends (Soundtrack from the Animated Series) (2021 - Soundtrack) [Flac 16-44]/09. PVRIS - Snakes (from the series Arcane League of Legends).flac
+268:arhive/Arcane - Arcane League of Legends (Soundtrack from the Animated Series) (2021 - Soundtrack) [Flac 16-44]/10. Fantastic Negrito - When Everything Went Wrong (from the series Arcane League of Legends).flac
+269:arhive/Arcane - Arcane League of Legends (Soundtrack from the Animated Series) (2021 - Soundtrack) [Flac 16-44]/11. Sting - What Could Have Been feat. Ray Chen (from the series Arcane League of Legends).flac
+270:arhive/ACDC/ACDC - Hells Bells.flac
+271:arhive/ACDC/ACDC - Shoot to Thrill.flac
+272:arhive/ACDC/ACDC - Back In Black.flac
+273:arhive/ACDC/ACDC - You Shook Me All Night Long.flac
+274:arhive/ACDC/ACDC - T.N.T..flac
+275:arhive/ACDC/ACDC - Highway to Hell.flac
+276:arhive/ACDC/ACDC - Go Down.flac
+277:arhive/ACDC/ACDC - Dog Eat Dog.flac
+278:arhive/ACDC/ACDC - Let There Be Rock.flac
+279:arhive/ACDC/ACDC - Bad Boy Boogie.flac
+280:arhive/ACDC/ACDC - Problem Child.flac
+281:arhive/ACDC/ACDC - Overdose.flac
+282:arhive/ACDC/ACDC - Hell Ain't a Bad Place to Be.flac
+283:arhive/ACDC/ACDC - Whole Lotta Rosie.flac
+284:arhive/ACDC/ACDC - Back In Black (live).flac
+285:arhive/ACDC/ACDC - Thunderstruck (live).flac
+286:arhive/ACDC/ACDC - Hells Bells (live).flac
+287:arhive/ACDC/ACDC - Highway To Hell (live).flac
+288:arhive/ACDC/ACDC - Thunderstruck.flac
+289:arhive/ACDC/ACDC - Are You Ready.flac
+290:arhive/Imagine Dragons - Bones.mp3
+291:arhive/the_cranberries-hollywood.mp3
+292:arhive/ES_Steak Frites - Dylan Sitts.mp3
+293:arhive/ES_Mind Your Step - Craft Case.mp3
+294:arhive/ES_Magnetic Danger - Wendel Scherer.mp3
+295:arhive/ES_Lost March - Farrell Wooten.mp3
+296:arhive/ES_Heartstarters 1 - Gunnar Johnsйn.mp3
+297:arhive/ES_Grit & Chips - T-Shirts & Sweats.mp3
+298:arhive/ES_Changeover - Red Dictionary.mp3
+playlist_end

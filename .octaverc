@@ -1,0 +1,30 @@
+## System-wide startup file for Octave.
+##
+## If the environment variable OCTAVE_SITE_INITFILE is set when Octave
+## starts, then that file is executed instead of this file.
+##
+## This file contain commands that should be executed each time Octave starts
+## for every user at this site.
+
+PS1 (">> ");
+edit mode async # make spawned processes run in background
+EDITOR('foot -d none vim %s') # use gvim as the default editor
+history_control ("ignoredups"); # ignore duplicates in command history
+crash_dumps_octave_core(0); # never dump octave-core
+page_screen_output(0); # write text to screen without buffering
+warning("off","Octave:divide-by-zero"); # disable unwanted warning messages
+
+pkg load signal;
+pkg load communications;
+pkg load symbolic;
+
+set(0, "defaultlinelinewidth", 1.5);
+
+set(0, "defaulttextfontsize", 18)  % title
+set(0, "defaultaxesfontsize", 14)  % axes labels
+
+set(0, "defaulttextfontname", "Courier")
+set(0, "defaultaxesfontname", "Courier")
+
+get(0, 'screenpixelsperinch');
+

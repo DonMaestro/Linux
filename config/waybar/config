@@ -1,0 +1,198 @@
+{
+	"layer": "bottom", // Waybar at top layer
+	"position": "top", // Waybar position (top|bottom|left|right)
+	"height": 29, // Waybar height (to be removed for auto height)
+	//"margin-right": 8,
+	//"margin-left": 8,
+	//"margin-top": 8,
+
+//	Choose the order of the modules
+	"modules-left": [
+		"sway/mode",
+		"custom/text",
+		"mpd",
+		"sway/scratchpad"
+		//"sway/window"
+	],
+
+	"modules-center": [
+		"sway/workspaces"
+	],
+
+	"modules-right": [
+		"tray",
+		"sway/language",
+		"memory",
+		//"cpu",
+		"temperature",
+		//"network",
+		//"custom/pacman",
+		//"wlr/taskbar",
+		"pulseaudio",
+		"clock#date"
+	],
+
+	"sway/window": {
+		"format": "{}",
+		"max-length": 35,
+	},
+
+	"sway/mode": {
+		"format": " {}",
+		"max-length": 50
+	},
+
+	"mpd": {
+//		"server": "192.168.1.5",
+//		"on-click": "mpc --host=192.168.1.5 toggle",
+//		"on-click-middle": "mpc --host=192.168.1.5 next",
+		"server": "/home/maestro/.config/mpd/socket",
+		"on-click": "mpc --host=/home/maestro/.config/mpd/socket toggle",
+		"on-click-middle": "mpc --host=/home/maestro/.config/mpd/socket next",
+		"format": "Mpd",
+		"format-stopped": "Stopped",
+		"format-disconnected": "<span color='#ff0000'>Mpd</span>",
+		"interval": 2,
+		"consume-icons": {
+		     "on": " " // Icon shows only when "consume" is on
+		},
+		"random-icons": {
+		     //"off": "<span color='#f53c3c'> </span>",
+		     "on": " "
+		},
+		"repeat-icons": {
+		     "on": " "
+		},
+		"single-icons": {
+		     "on": "1 "
+		},
+		"state-icons": {
+		     "paused": "",
+		     "playing": ""
+		},
+		//"on-click": "mpc toggle",
+		//"on-click-middle": "mpc next",
+		"on-click-right": "ymuse",
+		"tooltip-format": "{artist} - {title}
+{stateIcon} {consumeIcon}{randomIcon}{repeatIcon}{singleIcon} ({elapsedTime:%M:%S}/{totalTime:%M:%S})",
+		"tooltip-format-disconnected": "MPD (disconnected)",
+        },
+
+	"sway/workspaces": {
+//		"format": "{name}",
+		"format": "{value}",
+		"format-icons": {
+		    "1": "1: ",
+		    "2": "2: 󱀤",
+		    "3": "3: ",
+		    "4": "4: ",
+		    "5": "5: ",
+		    "6": "6: ",
+		    "7": "7: ",
+		    "8": "8: ",
+		    "9": "9: ",
+		    "10": "0: ",
+		    "urgent": "",
+		    "focused": "",
+		    "default": ""
+		}
+	},
+
+	"sway/language": {
+		//"format": " {}",
+		"format": "{flag}",
+	},
+
+	"memory": {
+		"interval": 3,
+		"format": " {used:0.2f}G",
+		"tooltip": false
+	},
+
+	"temperature": {
+		"interval": 5,
+//		"thermal-zone": 2,
+//		"hwmon-path": "/sys/class/hwmon/hwmon2/temp1_input",
+		"critical-threshold": 75,
+		"format-critical": "<span color='#ff0000'>{icon}</span> {temperatureC}°C",
+		"format": "{icon} {temperatureC}°C",
+		"format-icons": [ "", "", "", "", "", "", "" ],
+	},
+
+	"cpu": {
+		"interval": 3,
+		"format": " {avg_frequency}GHz"
+	},
+
+	"network": {
+		"interval": 5,
+		"format-wifi": " {essid} ({signalStrength}%)", // Icon: wifi
+		"format-ethernet": " {ifname}", // Icon: ethernet
+		"format-disconnected": "⚠  Disconnected",
+		"tooltip-format": "{ifname}",
+		"tooltip-format-wifi": "{essid} ({signalStrength}%) ",
+		"tooltip-format-ethernet": "{ifname} ",
+		"tooltip-format-disconnected": "Disconnected",
+	},
+
+
+	"custom/pacman": {
+		"format": "{} ",
+		"interval": 3600,                     // every hour
+		"exec": "checkupdates | wc -l",       // # of updates
+		"exec-if": "exit 0", // always run; consider advanced run conditions
+		"signal": 8
+	},
+
+
+	"clock#date": {
+		"interval": 10,
+		"format": "{:%a, %B %e, %H%M}", // Icon: calendar-alt
+		"tooltip-format": "<tt>{calendar}</tt>",
+	},
+
+	"pulseaudio": {
+		"format": "{icon} {volume}",
+		"format-muted": "",
+		"format-bluetooth": "{icon} {volume}%",
+		"format-bluetooth-muted": " ",
+
+		"format-icons": {
+			"headphones": "",
+			"default": ["", "", "" ]
+		},
+		//"on-click-right": "pavucontrol"
+		"on-click-right": "myxer"
+	},
+
+	"wlr/taskbar": {
+		"format": "{icon}",
+		"icon-size": 14,
+		"icon-theme": "Numix-Circle",
+		"tooltip-format": "{title}",
+		"on-click": "activate",
+		"on-click-middle": "close",
+		"ignore-list": [
+		    "Alacritty"
+		]
+	},
+
+	"custom/text": {
+		"format": "Arch",
+		"on-click": "dark-mode toggle"
+	},
+
+	"sway/scratchpad": {
+               "format": "{icon} {count}",
+               "show-empty": false,
+               "format-icons": ["", ""],
+               "tooltip": true,
+               "tooltip-format": "{app}: {title}"
+           },
+
+	"tray": {
+		"icon-size": 24,
+		//"show-passive-items": true,
+		"spacing": 5
+	}
+}

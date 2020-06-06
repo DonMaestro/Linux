@@ -1,0 +1,20 @@
+font='SF Pro Display' 11
+#background-color=#002B36E0
+background-color=#1a1a1aE0
+border-size=0
+anchor=bottom-right
+#
+icons=1
+
+
+text-color=#ffffff
+default-timeout=5000
+ignore-timeout=1
+
+[hidden]
+format=(and %h more)
+text-color=#777777
+
+[urgency=high]
+background-color=#ff0000
+

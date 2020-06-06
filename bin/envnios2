@@ -1,0 +1,4 @@
+export PATH=$PATH:/opt/intelFPGA/21.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin
+export NIOSHOME=/opt/intelFPGA/21.1/nios2eds
+export NIOS_ROOTDIR=/opt/intelFPGA/21.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin
+

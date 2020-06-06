@@ -1,0 +1,12 @@
+window {
+	margin: 0px;
+	border: 1px solid #C9CBFF;
+}
+
+#text {
+	margin: 2px;
+	border: none;
+	font-family: "SF Pro Text";
+	font-size: 14px;
+} 
+
