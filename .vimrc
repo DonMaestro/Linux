@@ -33,7 +33,8 @@ xnoremap y y:call system("wl-copy", @")<cr>
 set hidden
 set splitbelow
 
-"set wrap linebreak nolist textwidth=0 wrapmargin=0
+"set wrap nolist textwidth=0 wrapmargin=0
+set linebreak " слова не розриваються
 "colorscheme elflord default ron torte
 "colorscheme default
 set number
@@ -55,7 +56,6 @@ if $TERM == 'alacritty' || $TERM == 'foot'
   set ttymouse=sgr
 endif
 
-set langmap=ФИСВУАПРШОЛДЬТЩЗЙКІЕГМЦЧНЯ;ABCDEFGHIJKLMNOPQRSTUVWXYZ,фисвуапршолдьтщзйкіегмцчня;abcdefghijklmnopqrstuvwxyz
 "let skip_defaults_vim=1
 
 " search
@@ -89,6 +89,10 @@ Plug 'tpope/vim-commentary'
 
 Plug 'tpope/vim-surround'
 
+Plug 'jclsn/glow.vim'
+
+Plug 'freitass/todo.txt-vim.git'
+
 " https://github.com/vim-syntastic/syntastic#installation
 "Plug 'vim-syntastic/syntastic'
 
@@ -107,3 +111,9 @@ call plug#end()
 "let g:livedown_port = 1337
 " the browser to use, can also be firefox, chrome or other, depending on your executable
 "let g:livedown_browser = "Safari"
+"
+set langmap=ФИСВУАПРШОЛДЬТЩЗЙКІЕГМЦЧНЯ;ABCDEFGHIJKLMNOPQRSTUVWXYZ,фисвуапршолдьтщзйкіегмцчня;abcdefghijklmnopqrstuvwxyz
+
+let maplocalleader="]"
+
+
